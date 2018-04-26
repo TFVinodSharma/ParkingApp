@@ -1,0 +1,4 @@
+- Find parking in seconds with ParkingApp - wherever and whenever you need it
+- Choose from the best options, including 100+ reservable parking locations
+- Enjoy peace of mind with information on availability, restrictions and directions
+- Reserve and pay for parking via the app for our quickest, easiest experience
