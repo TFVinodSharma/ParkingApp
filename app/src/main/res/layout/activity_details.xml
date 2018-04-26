@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="tris.parkingapp.Details">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#dddddd	">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:src="@drawable/logo"
+        android:layout_marginTop="20dp"
+        android:id="@+id/imageview"
+        android:padding="10dp"/>
+    <android.support.v7.widget.SearchView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginLeft="40dp"
+        android:id="@+id/search"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp">
+    </android.support.v7.widget.SearchView>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="xyz parking "
+        android:textAlignment="center"
+        android:id="@+id/parkingname"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:textAlignment="center"
+        android:id="@+id/parkingaddress"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttoncolor1"
+            android:text="Available"
+            android:textAllCaps="false"
+            android:layout_marginLeft="5dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:background="#229954"
+            android:text="Occupied"
+            android:textAllCaps="false"
+            android:id="@+id/buttoncolor2"
+            android:layout_marginLeft="5dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/book1"
+            android:layout_marginLeft="5dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:background="#229954"
+            android:id="@+id/book2"
+            android:layout_marginLeft="5dp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/book3"
+            android:layout_marginLeft="5dp"
+            />
+        <Button
+            android:layout_width="85dp"
+            android:layout_height="35dp"
+            android:id="@+id/book4"
+            android:background="#229954"
+            android:layout_marginLeft="5dp"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:id="@+id/book5"
+            android:background="#229954"
+            android:layout_marginLeft="5dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/book6"
+            android:layout_marginLeft="5dp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/book7"
+            android:layout_marginLeft="5dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:id="@+id/book8"
+            android:background="#229954"
+            android:layout_marginLeft="5dp"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/book11"
+            android:layout_marginLeft="5dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:id="@+id/book22"
+            android:background="#229954"
+            android:layout_marginLeft="5dp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:id="@+id/book33"
+            android:background="#229954"
+            android:layout_marginLeft="5dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/book44"
+            android:layout_marginLeft="5dp"
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:id="@+id/book111"
+            android:background="#229954"
+            android:layout_marginLeft="5dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/book222"
+            android:layout_marginLeft="5dp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/book333"
+            android:layout_marginLeft="5dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:id="@+id/book444"
+            android:background="#229954"
+            android:layout_marginLeft="5dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bookA"
+            android:layout_marginLeft="5dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:id="@+id/bookB"
+            android:background="#229954"
+            android:layout_marginLeft="5dp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bookC"
+            android:layout_marginLeft="5dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bookD"
+            android:layout_marginLeft="5dp"
+            />
+
+
+    </LinearLayout>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="10dp">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Date "
+        android:padding="10dp"
+        android:id="@+id/dateselect"
+        android:layout_marginLeft="5dp"
+        android:textColor="#ffffff"
+        android:background="#000000"
+        android:textAllCaps="false"/>
+    <TextView
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/date"
+        android:padding="5dp"
+        android:textAlignment="center"
+        android:background="@drawable/box"
+        android:textSize="20sp"/>
+
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Time "
+            android:onClick="ShowTime"
+            android:id="@+id/selecttime"
+            android:layout_marginLeft="5dp"
+            android:textColor="#ffffff"
+            android:background="#000000"
+            android:padding="10dp"
+            android:textAllCaps="false"/>
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/showtime"
+            android:padding="5dp"
+            android:textAlignment="center"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/box"
+            android:textSize="20sp"/>
+
+
+    </LinearLayout>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:padding="10dp"
+            android:text="Book Now"
+            android:textColor="#ffffff"
+            android:background="#000000"
+            />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+</ScrollView>

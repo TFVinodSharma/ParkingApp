@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ParkingApp</string>
+    <string name="content">By Signing you agree to our T&amp;C and Privacy Poilcy</string>
+    <string name="title_activity_maps">Map</string>
+    <string-array name="title">
+        <item>Najafgarh</item>
+        <item> Gurgaon</item>
+        <item>Jankpuri</item>
+
+    </string-array>
+
+    <string-array name="Description">
+        <item>Near Sai Baba Mandir Najafgarh ,Delhi</item>
+        <item>NH-8 ,Rajiv Chowk</item>
+        <item> Near Pankha Road </item>
+
+    </string-array>
+
+
+</resources>
